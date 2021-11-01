@@ -48,9 +48,9 @@
 //    | Ê+ALT  |  À  |  Y  |  X  |  .  |  K  |   |  ’  |  Q   |  G  |  H  |  F  |  W  |
 //               | CTRL+CAPS | GRALT | LSHFT |   | SPC | BKSP | ENTER |
                         bindings = <
-   &sl 2         &kp Q &kp W &kp E &kp R &kp T    &kp Y &kp U &kp I    &kp O   &kp P    &kp LBKT
-   &tog 1        &kp A &kp S &kp D &kp F &kp G    &ht HASH H &kp J &kp K    &kp L   &kp SEMI &kp SQT
-   &mt LALT BSLH &kp Z &kp X &kp C &kp V &kp B    &ht RA(G) N &kp M &kp CMMA &kp DOT &kp FSLH &kp RBKT
+   &sl 2         &kp Q &kp W &kp E &kp R &kp T    &kp Y      &kp U &kp I    &kp O   &kp P     &kp LBKT
+   &tog 1        &kp A &kp S &kp D &kp F &kp G    &ht HASH H &kp J &kp K    &kp L   &kp SEMI  &kp SQT
+   &mt LALT BSLH &kp Z &kp X &kp C &kp V &kp B    &ht RA(G) N &kp M &kp COMMA &kp DOT &kp FSLH &kp RBKT
              &mt LCTRL CAPS &sk RALT &sk LSHFT    &ht RA(SPC) SPC &kp BSPC &kp ENTER
                         >;
                 };
