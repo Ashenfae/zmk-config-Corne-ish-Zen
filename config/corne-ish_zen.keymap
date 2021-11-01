@@ -12,7 +12,6 @@
 #define DEFAULT 0
 #define NUMPAD 1
 #define NUMROW 2
-#define NUMROW 3
 
 &sk {
 	release-after-ms = <2000>;
@@ -65,7 +64,7 @@
 //                              | CTRL+CAPS | GRALT | LSHFT |   | SPC | BKSP | ENTER |
                         bindings = < 
    &none  &kp PG_UP &kp HOME  &kp UP       &kp END   &none       &kp KP_EQUAL    &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_N0    &kp KP_LPAR
-   &trans &kp PG_DN &kp LEFT  &kp DOWN     &kp RIGT  &kp PSCRN   &kp KP_ASTERISK &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS  &kp KP_RPAR
+   &trans &kp PG_DN &kp LEFT  &kp DOWN     &kp RIGHT  &kp PSCRN   &kp KP_ASTERISK &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS  &kp KP_RPAR
    &trans &kp LWIN  &kp LC(C) &kp LC(HASH) &kp LC(U) &kp TAB     &kp KP_SLASH    &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_MINUS &kp KP_DOT
                                          &trans &trans &trans    &trans &trans &trans
                         >;
